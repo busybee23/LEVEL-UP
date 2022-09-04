@@ -16,3 +16,8 @@ class Solution
 		    return (num==n) ? "Yes" : "No";
 		}
 };
+
+
+/* leetcode link 
+
+*/
