@@ -18,3 +18,8 @@ var items = document.querySelectorAll("._ab8w._ab94._ab97._ab9h._ab9k._ab9p._abb
 for(var i=10;i<items.length;i++){
     items[i].querySelector('._acan._acap._acas').click()
 }
+
+
+_aacl _aaco _aacw _adda _aad6 _aade - following
+
+_aacl _aaco _aacw _adda _aad6 _aade - requested
