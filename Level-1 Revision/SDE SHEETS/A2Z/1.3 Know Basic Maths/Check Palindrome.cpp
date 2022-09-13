@@ -18,6 +18,18 @@ class Solution
 };
 
 
-/* leetcode link 
-
+/* leetcode link : https://leetcode.com/problems/palindrome-number/solution/
+but we have to do it without converting it into a string, as creating another string and copying it into requires extra space
 */
+
+
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        string s = to_string(x);
+        string e = to_string(x);
+        reverse(e.begin(), e.end());
+        return ( s!=e) ? false : true;
+    }
+};
+
